@@ -1,0 +1,2 @@
+Then type:
+bin\activemq start
