@@ -26,10 +26,10 @@ import javax.swing.UIManager;
 
 import org.neos.jms.mq.ChatConexion;
 
-public class MainChatGUI {
+public class TestChatGUI {
 
     String      appName     = "CHAT JMS - ";
-    MainChatGUI     mainGUI;
+    TestChatGUI     mainGUI;
     JFrame      newFrame    = new JFrame(appName);
     JButton     sendMessage;
     JTextField  messageBox;
@@ -50,7 +50,7 @@ public class MainChatGUI {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-                MainChatGUI mainGUI = new MainChatGUI();
+                TestChatGUI mainGUI = new TestChatGUI();
                 
                 mainGUI.preDisplay();
             }
