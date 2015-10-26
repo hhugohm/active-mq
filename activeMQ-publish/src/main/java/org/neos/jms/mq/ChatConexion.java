@@ -72,6 +72,7 @@ public class ChatConexion implements MessageListener {
 	/* Close the JMS Connection */
 	public void close() throws JMSException {
 		connection.close();
+		System.out.println("SE CIERRA CONEXION.....");
 	}
 	public String getMessageText() {
 		return messageText;
